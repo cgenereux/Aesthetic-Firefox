@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Gradient Google Tab",
+  "version": "1.1",
+  "description": "Custom Google page with animated gradient",
+  
+  "chrome_url_overrides": {
+    "newtab": "Gradient.html"
+  },
+  
+  "icons": {
+    "16": "tab-icon.png",
+    "48": "tab-icon.png",
+    "128": "tab-icon.png"
+  },
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "gradient-tab@local",
+      "strict_min_version": "102.0"
+    }
+  }
+}
+
