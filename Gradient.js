@@ -1,10 +1,4 @@
-
-/*
-*   Stripe WebGl Gradient Animation by Stripe.com
-*   ScrollObserver functionality to disable animation when not scrolled into view has been disabled and 
-*   commented out for now.
-*/
-
+// All gradient animation logic is from https://kevinhufnagl.com/how-to-stripe-website-gradient-effect/
 
 //Converting colors to proper format
 function normalizeColor(hexCode) {
